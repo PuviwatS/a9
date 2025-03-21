@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1000;
+  }
+  
+  .rightContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100%;
+    width: auto;
+  }
+  
+  .menuItem {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+  }
